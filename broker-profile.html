@@ -202,9 +202,9 @@
 <section id="agents" class="padding_bottom_half padding_top">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 listing1">
+      <div class="col-md-8 listing1 floatRight AR_TRANSLATION">
         <div class="row">
-          <div class="col-sm-6 bottom40">
+          <div class="col-sm-6 bottom40 floatRight">
             <div class="agent_wrap">
               <div class="image">
                 <img src="images/agent-one.jpg" alt="Agents">
@@ -212,11 +212,11 @@
             </div>
           </div>
           <div class="col-sm-6 bottom40">
-            <div class="agent_wrap">
+            <div class="agent_wrap textRight">
               <h3 data-localize="GOLD SQUARE">GOLD SQUARE</h3><BR />
               <p class="bottom30" data-localize="Lorem ipsum dolor sit amet, doming…">Lorem ipsum dolor sit amet, consectetuer adipictetuer adipictetuer adipictetuer adipictetuer adipictetuer adipictetuer adipiscing elit, sed diam nonummy nibh tempor cum soluta nobis consectetuer adipiscing eleifend option congue nihil imperdiet doming…</p>
                 
-                  <table class="agent_contact table">
+                  <table class="agent_contact table AR_TRANSLATION">
                      <tbody>
                         <tr class="bottom10">
                            <td><strong data-localize="Phone Number">Phone:</strong></td>
@@ -240,9 +240,9 @@
             </div>
           </div>
           <div class="col-sm-12 bottom40">
-            <form class="callus">
+            <form class="callus AR_TRANSLATION">
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 floatRight">
                   <div class="form-group">
                     <input type="text" class="form-control" data-localize="Your Name" placeholder="Name">
                   </div>
@@ -260,7 +260,7 @@
                 </div>
                 <div class="col-sm-12 row">
                   <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 floatRight">
                       <input type="submit" class="btn-blue uppercase border_radius" data-localize="submit now" value="submit now">
                     </div>
                   </div>
@@ -295,7 +295,7 @@
            
                 <div class="favroute clearfix">
                   <p class="pull-md-left" data-localize="5 Days ago"><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
-                  <ul class="pull-right">
+                  <ul class="pull-right marginLeft10">
                     <li><a href="#."><i class="icon-like"></i></a></li>
                     <li><a href="#three" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
                   </ul>
@@ -333,7 +333,7 @@
            
                 <div class="favroute clearfix">
                   <p class="pull-md-left" data-localize="5 Days ago"><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
-                  <ul class="pull-right">
+                  <ul class="pull-right marginLeft10">
                     <li><a href="#."><i class="icon-like"></i></a></li>
                     <li><a href="#three" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
                   </ul>
@@ -371,7 +371,7 @@
            
                 <div class="favroute clearfix">
                   <p class="pull-md-left" data-localize="5 Days ago"><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
-                  <ul class="pull-right">
+                  <ul class="pull-right marginLeft10">
                     <li><a href="#."><i class="icon-like"></i></a></li>
                     <li><a href="#three" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
                   </ul>
@@ -409,7 +409,7 @@
            
                 <div class="favroute clearfix">
                   <p class="pull-md-left" data-localize="5 Days ago"><i class="icon-calendar2"></i>&nbsp;5 Days ago </p>
-                  <ul class="pull-right">
+                  <ul class="pull-right marginLeft10">
                     <li><a href="#."><i class="icon-like"></i></a></li>
                     <li><a href="#three" class="share_expender" data-toggle="collapse"><i class="icon-share3"></i></a></li>
                   </ul>
@@ -433,7 +433,7 @@
           </div>
         </div>
       </div>
-      <aside class="col-md-4 col-xs-12">
+      <aside class="col-md-4 col-xs-12 AR_TRANSLATION">
          <div class="property-query-area clearfix">
           <div class="col-md-12">
             <h3 class="text-uppercase bottom20 top15" data-localize="Advanced Search">Advanced Search</h3>
@@ -446,12 +446,12 @@
               <div class="intro">
                 <select>
                   <option selected="" value="any" data-localize="Locations">Location</option>
-                  <option data-localize="All areas" value="1">All areas</option>
-                  <option data-localize="Bayonne" value="2">Bayonne </option>
-                  <option data-localize="Greenville" value="3">Greenville</option>
-                  <option data-localize="Manhattan" value="4">Manhattan</option>
-                  <option data-localize="Queens" value="5">Queens</option>
-                  <option data-localize="The Heights" value="6">The Heights</option>
+                  <option data-localize="All areas">All areas</option>
+                  <option data-localize="Bayonne">Bayonne </option>
+                  <option data-localize="Greenville">Greenville</option>
+                  <option data-localize="Manhattan">Manhattan</option>
+                  <option data-localize="Queens">Queens</option>
+                  <option data-localize="The Heights">The Heights</option>
                 </select>
               </div>
             </div>
@@ -669,7 +669,7 @@
           <div class="col-md-12">
             <h3 data-localize="Featured Properties" class="margin40 bottom20">Featured Properties</h3>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12 EN_TRANSLATION">
             <div id="agent-2-slider" class="owl-carousel">
               <div class="item">
                 <div class="property_item heading_space">
@@ -855,7 +855,7 @@
          $("#arSheet").remove();
           $("#ar").show()
           $("#en").hide()
-
+          $("#arSheet").remove();
           localStorage.setItem("lang", "en");
        }
        if(localStorage.getItem("lang")=="ar"){
@@ -892,6 +892,7 @@
      localStorage.setItem("lang", lang);
      console.log(localStorage.getItem("lang"))
   $("[data-localize]").localize("mylanguage",{language:localStorage.getItem("lang")})
+  window.location.reload();
   
 })
 
