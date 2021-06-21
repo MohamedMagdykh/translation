@@ -48,7 +48,13 @@
   {
       text-align: right !important;
   }
-
+  @media (min-width: 576px)
+  {
+      .push-10
+      {
+        left: 83.33333333%; 
+      }
+  }
   @media (min-width: 992px)
   {
     .push-8
@@ -81,6 +87,15 @@
   .error-text
   {
     padding-top: 22%;
+  }
+  .push-6
+  {
+    left: 50%;
+
+  }
+  .pull-6
+  {
+    right: 50%;
   }
   
 
