@@ -54,6 +54,15 @@
       {
         left: 83.33333333%; 
       }
+      .push-5
+      {
+        left: 50%; 
+      }
+      .pull-5
+      {
+        right: 50%; 
+      }
+
   }
   @media (min-width: 992px)
   {
@@ -65,6 +74,15 @@
     .pull-4
     {
       right: 33.33333333%;
+    }
+    .pull-8
+    {
+      right: 66.66666667%;
+  
+    }
+    .push-4
+    {
+      left: 33.33333333%;
     }
 
   }
@@ -100,7 +118,10 @@
   .marginLeft10{
     margin-left: 10px;
   }
-  
+  .EN_TRANSLATION
+  {
+      direction: ltr;
+  }
 
 
 

@@ -61,7 +61,11 @@ Developed by: e-RAMO For Digital Solutions
     font-weight: normal;
     font-style: normal;
 }
-
+.editDropMenus 
+{
+  right: auto !important;
+  left: auto !important;
+}
 /* General Styling */
 body{
 	font-family: 'robotoregular';
