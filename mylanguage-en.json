@@ -83,7 +83,7 @@
     "5 Days ago":"5 Days ago",
     "Advanced Search":"Advanced Search",
     "Keyword c":"Keyword (e.g. office for rent in cairo)",
-    "Locations":"Location",
+    "Locations":"Locations",
     "All areas":"All areas",
     "Bayonne":"Bayonne",
     "Greenville":"Greenville",
@@ -112,7 +112,7 @@
     "Featured Properties":"Featured Properties",
     "EGP 8,600 / Mo":"EGP 8,600 / Mo",
     "Start Favorite-properties":"========================= Start Favorite-properties ==========================",
-    "My favorite Propertie":"My favorite Propertie",
+    "My favorite Properties":"My favorite Properties",
     "All my favorite properties":"All my favorite properties",
     "LoginPage":"========================= Start Login ==========================",
     "Login":"Login",
@@ -147,8 +147,62 @@
    "Terms & Conditions - Privacy":"Terms & Conditions - Privacy",
    "We will offer personal and professional":"In <b>AMTALEK</b> We will offer personal and professional service for all your real estate needs, including getting your home sold or helping you find the home of your dreams in less time and with less hassle, also we will provide for our clients FULL CRM system so he can manage his agents and leads.<br /><br />Our tradition of success comes from our commitment to fostering close relations with partners based on mutual respect.<br /><br />You will find easy system to use and attractive price better than the market.",
    "Privacy":"Privacy",
-   "To be the 1st platform in Egypt offering CRM":"To be the 1st platform in Egypt offering CRM"
+   "To be the 1st platform in Egypt offering CRM":"To be the 1st platform in Egypt offering CRM",
+   "///////////":"========================= Start terms-privacy ==========================",
+   "Add Your Property":"Add Your Property",
+   "Enter your property title":"Enter your property title",
+   "Enter Proprty Location":"Enter Proprty Location",
+   "Status":"Status",
+   "Price":"Price",
+   "Propertie Photos":"Propertie Photos",
+   "Click here or drop files to upload":"<i class='fa fa-plus-circle'></i>Click here or drop files to upload",
+   "Propertie Detail":"Propertie Detail",
+   "Size Prefix":"Size Prefix",
+   "Sq Ft":"Sq Ft",
+   "Bedrooms":"Bedrooms",
+   "Number of Bedrooms":"Number of Bedrooms",
+   "Bathrooms":"Bathrooms",
+   "Number of bathrooms":"Number of bathrooms",
+   "TV Lounge":"TV Lounge",
+   "Number of TV Lounge":"Number of TV Lounge",
+   "Garages":"Garages",
+   "Number of Garages":"Number of Garages",
+   "Swimming Pool":"Swimming Pool",
+   "Number of Pool":"Number of Pool",
+   "Propertie Description":"Propertie Description",
+   "Quick Summary":"Quick Summary",
+   "Title":"Title",
+   "Value":"Value",
+   "Add New":"<i class='fa fa-plus'></i> Add New",
+   "Property Features":"Property Features",
+   "Air Conditioning":"Air Conditioning",
+   "Balcony":"Balcony",
+   "Gas Heat":"Gas Heat",
+   "Fire Place":"Fire Place",
+   "Washer and Dryer":"Washer and Dryer",
+   "Home Theater":"Home Theater",
+   "Smoking allowed":"Smoking allowed",
+   "Cable TV":"Cable TV",
+   "Window Coverings":"Window Coverings",
+   "Video Presentation":"Video Presentation",
+   "Vimeo or Youtube URL":"Vimeo or Youtube URL",
+   "Place on Map":"Place on Map",
+   "Property Address":"Property Address",
+   "Enter a Location":"Enter a Location",
+   "submit property":"submit property",
+   "Location":"Location"
 
+
+   
+
+
+
+
+
+
+
+
+   
 
 
 
